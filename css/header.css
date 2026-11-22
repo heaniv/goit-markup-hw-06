@@ -150,3 +150,8 @@
     margin-right: 76px;
   }
 }
+@media (min-width: 768px) {
+  .address {
+    display: block;
+  }
+}

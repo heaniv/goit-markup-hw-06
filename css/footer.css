@@ -254,3 +254,8 @@
     text-align: center;
   }
 }
+@media (min-width: 768px) {
+  .subscribe-form {
+    gap: 24px;
+  }
+}
