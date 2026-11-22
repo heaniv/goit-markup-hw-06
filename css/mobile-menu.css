@@ -124,3 +124,22 @@
   height: 24px;
   fill: currentColor;
 }
+.mobile-address ul {
+  gap: 24px;
+}
+.mobile-address ul li:first-child a {
+  color: #4d5ae5;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.mobile-address ul li:last-child a {
+  color: #434455;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
