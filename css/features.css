@@ -138,3 +138,21 @@
     font-weight: 400;
   }
 }
+.features-name {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .features-name {
+    text-align: left;
+  }
+}
+@media (min-width: 1158px) {
+  .features-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}

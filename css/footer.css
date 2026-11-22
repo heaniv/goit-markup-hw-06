@@ -243,3 +243,14 @@
     margin: 0 auto;
   }
 }
+@media (max-width: 767px) {
+  .footer-info {
+    text-align: center;
+  }
+  .footer-text {
+    text-align: left;
+  }
+  .footer-social-title {
+    text-align: center;
+  }
+}

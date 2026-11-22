@@ -137,3 +137,16 @@
     letter-spacing: 0.02em;
   }
 }
+.address {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header-title {
+    margin-right: 120px;
+  }
+}
+@media (min-width: 1158px) {
+  .header-title {
+    margin-right: 76px;
+  }
+}
