@@ -2,6 +2,19 @@
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header-title {
+  padding: 16px 0;
+}
+
+.nav-menu,
+.address {
+  display: none;
+}
+
+.header-container {
+  justify-content: space-between;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -90,4 +103,16 @@
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
+}
+
+@media (min-width: 768px) {
+  .header-title {
+    margin-right: 76px;
+  }
+  .nav-menu {
+    display: flex;
+  }
+  .address {
+    display: block;
+  }
 }

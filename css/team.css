@@ -1,5 +1,7 @@
 .team-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -34,7 +36,8 @@
   background-color: #f4f4fd;
 }
 .team-card {
-  width: calc((100% - 72px) / 4);
+  width: 264px;
+  max-width: 100%;
   background-color: #fff;
   border-radius: 0 0 4px 4px;
   overflow: hidden;
@@ -42,6 +45,19 @@
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+@media (min-width: 768px) {
+  .team-list {
+    max-width: 552px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1158px) {
+  .team-list {
+    max-width: none;
+  }
 }
 .team-name,
 .team-text {
