@@ -223,3 +223,23 @@
     margin-left: 0;
   }
 }
+@media (max-width: 767px) {
+  .footer {
+    padding: 96px 0;
+  }
+  .footer-info {
+    text-align: left;
+  }
+  .subscribe-input {
+    max-width: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1157px) {
+  .footer {
+    padding: 96px 0;
+  }
+  .footer-container {
+    max-width: 584px;
+    margin: 0 auto;
+  }
+}

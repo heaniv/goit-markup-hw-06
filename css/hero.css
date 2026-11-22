@@ -1,5 +1,5 @@
 .hero {
-  padding: 112px 0;
+  padding: 72px 0;
   background: #2e2f42;
   max-width: 1440px;
   margin: 0 auto;
@@ -17,7 +17,7 @@
 
 .hero-title {
   max-width: 216px;
-  margin: 0 auto 72px;
+  margin: 0 auto 36px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -35,12 +35,16 @@
     max-width: 496px;
     font-size: 56px;
     line-height: 1.07143;
+    margin-bottom: 36px;
   }
 }
 
 @media (min-width: 1158px) {
   .hero {
     padding: 188px 0;
+  }
+  .hero-title {
+    margin-bottom: 48px;
   }
 }
 
