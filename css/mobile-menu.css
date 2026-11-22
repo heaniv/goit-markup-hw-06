@@ -62,17 +62,6 @@
   margin-top: auto;
   font-style: normal;
 }
-.mobile-address a:first-child {
-  color: #4d5ae5;
-  font-size: 24px;
-  font-weight: 500;
-  text-decoration: none;
-}
-.mobile-address a:last-child {
-  color: #434455;
-  font-size: 20px;
-  text-decoration: none;
-}
 .mobile-social-list {
   display: flex;
   justify-content: space-between;
@@ -107,39 +96,25 @@
 .mobile-address ul {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 24px;
 }
-.mobile-address ul a {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-}
-.mobile-address ul li:first-child a {
+.mobile-address ul li:first-child a,
+.mobile-address ul li:last-child a {
+  display: block;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.mobile-address ul li:first-child a {
+  color: #4d5ae5;
+}
+.mobile-address ul li:last-child a {
+  color: #434455;
 }
 .mobile-social-list a svg {
   width: 24px;
   height: 24px;
   fill: currentColor;
-}
-.mobile-address ul {
-  gap: 24px;
-}
-.mobile-address ul li:first-child a {
-  color: #4d5ae5;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-.mobile-address ul li:last-child a {
-  color: #434455;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-decoration: none;
 }
